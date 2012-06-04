@@ -1,11 +1,8 @@
 #<?php eval('echo "PHP Code\n";'); __halt_compiler(); ?>
 
-print ((("b" + "0" == 0) and eval('"Perl Code\n"')) or "");
+print ((("b" + "0" == 0) and eval('"Perl Code\n"')) or (0 and "Ruby Code\n" or "Python Code"));
 
 __DATA__ = 1
-
-print (0 and "Ruby Code\n" or "Python Code")
-
 """""
 __END__
 
@@ -13,14 +10,13 @@ __END__
 
 outputs:
 
-  $ perl polyglot.pl.php.py.rb
+  $ perl polyglot.pl.php.python.rb
   Perl Code
-  $ php polyglot.pl.php.py.rb
+  $ php polyglot.pl.php.python.rb
   #PHP Code
-  $ python polyglot.pl.php.py.rb
-
+  $ python polyglot.pl.php.python.rb
   Python Code
-  $ ruby polyglot.pl.php.py.rb
+  $ ruby polyglot.pl.php.python.rb
   Ruby Code
   $
 
