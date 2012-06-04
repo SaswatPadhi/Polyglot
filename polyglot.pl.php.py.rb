@@ -10,13 +10,13 @@ __END__
 
 outputs:
 
-  $ perl polyglot.pl.php.python.rb
+  $ perl polyglot.pl.php.py.rb
   Perl Code
-  $ php polyglot.pl.php.python.rb
+  $ php polyglot.pl.php.py.rb
   #PHP Code
-  $ python polyglot.pl.php.python.rb
+  $ python polyglot.pl.php.py.rb
   Python Code
-  $ ruby polyglot.pl.php.python.rb
+  $ ruby polyglot.pl.php.py.rb
   Ruby Code
   $
 
