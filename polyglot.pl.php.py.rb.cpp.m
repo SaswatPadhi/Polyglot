@@ -35,6 +35,7 @@ outputs:
   $ g++ -x c polyglot.pl.php.py.rb.cpp.m -o poly; ./poly
   C Code
   $ gcc polyglot.pl.php.py.rb.cpp.m -o poly; ./poly # apple-darwin11-llvm-gcc
+  Objective-C Code
 
 """
 #*/
