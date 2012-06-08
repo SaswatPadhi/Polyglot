@@ -2,7 +2,7 @@
 
 #include <stdio.h> /*
 
-print ((("b" + "0" == 0) and eval('"Perl Code\n"')) or (0 and "Ruby Code\n" or "Python Code"));
+print (("b" + "0" == 0 and "Perl Code\n") or (0 and "Ruby Code\n" or "Python Code"));
 
 __DATA__ = 1
 """""
@@ -25,7 +25,7 @@ outputs:
   $ perl polyglot.pl.php.py.rb.cpp.m
   Perl Code
   $ php polyglot.pl.php.py.rb.cpp.m
-  #PHP Code
+  #/*PHP Code
   $ python polyglot.pl.php.py.rb.cpp.m
   Python Code
   $ ruby polyglot.pl.php.py.rb.cpp.m
