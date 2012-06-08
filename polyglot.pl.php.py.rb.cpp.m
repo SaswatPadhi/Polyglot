@@ -1,4 +1,4 @@
-#/*<?php eval('echo "PHP Code\n";'); __halt_compiler();?> */
+#/*<?php echo "PHP Code\n"; __halt_compiler();?> */
 
 #include <stdio.h> /*
 
