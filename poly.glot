@@ -11,14 +11,14 @@ __END__
 ===== . ===== */
 
 #ifdef __OBJC__
-    char msg[17] = {'O','b','j','e','c','t','i','v','e','-','C',' ','C','o','d','e', '\n'};
+  char msg[] = {'O','b','j','e','c','t','i','v','e','-','C',' ','C','o','d','e', '\n', 0};
 #elif __cplusplus
-    char msg[9] = {'C','+','+',' ','C','o','d','e', '\n'};
+  char msg[] = {'C','+','+',' ','C','o','d','e', '\n', 0};
 #else
-    char msg[7] = {'C',' ','C','o','d','e', '\n'};
+  char msg[] = {'C',' ','C','o','d','e', '\n', 0};
 #endif
 
-int main() { int i; for(i = 0; i < 17; ++i) putchar(msg[i]); return 0;} /*
+int main() { printf(msg); return 0; } /*
 
 outputs:
 
