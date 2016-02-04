@@ -5,8 +5,9 @@ language: generic
 addons:
   apt:
     packages:
-      - gobjc
       - gnustep-devel
+      - gobjc
+      - php5-cli
 
 script:
   - make test

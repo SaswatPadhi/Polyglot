@@ -20,22 +20,11 @@ __END__
 
 int main() { printf(msg); return 0; } /*
 
-outputs:
+PolyComment :: + Supported: C, C++, Perl, PHP*, Python, Objective-C, Ruby
+               + Run with your favorite compiler / interpreter.
+               + Please check Makefile for details.
 
-  $ perl polyglot.pl.php.py.rb.cpp.m
-  Perl Code
-  $ php polyglot.pl.php.py.rb.cpp.m
-  #/*PHP Code
-  $ python polyglot.pl.php.py.rb.cpp.m
-  Python Code
-  $ ruby polyglot.pl.php.py.rb.cpp.m
-  Ruby Code
-  $ g++ -x c++ polyglot.pl.php.py.rb.cpp.m -o poly; ./poly
-  C++ Code
-  $ g++ -x c polyglot.pl.php.py.rb.cpp.m -o poly; ./poly
-  C Code
-  $ gcc polyglot.pl.php.py.rb.cpp.m -o poly; ./poly # apple-darwin11-llvm-gcc
-  Objective-C Code
+* not fluent, but still speaks decent PHP
 
 """
 #*/
